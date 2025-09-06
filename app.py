@@ -14,9 +14,9 @@ from waitress import serve
 app = Flask(__name__)
 
 # Configuration
-TOKEN = os.getenv('TELEGRAM_TOKEN')
+TOKEN = os.getenv('8366300365:AAFHQ9cOh2FCERla0HONzf39jzsoYpEYGFQ')
 bot = telebot.TeleBot(TOKEN)
-ADMINS = os.getenv('ADMINS', '').split(',')
+ADMINS = os.getenv('7064198008', '').split(',')
 
 # File system setup
 os.makedirs("scripts", exist_ok=True)
